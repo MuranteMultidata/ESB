@@ -12,7 +12,7 @@ public class Activator implements BundleActivator {
 
     public void stop(BundleContext context)
     {
-    	System.out.println("My first project STOPQ");
+    	System.out.println("My first project STOP");
     }
 
 }
