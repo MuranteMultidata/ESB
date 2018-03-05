@@ -8,6 +8,9 @@ public class MyFirstProcessor implements Processor
 	public void process(Exchange exchange) throws Exception
 	{
 		String filename = (String) exchange.getIn().getHeader( "CamelFileName" );
-		System.out.println(filename);
+		String subject = (String) exchange.getIn().getHeader( "Subject" );
+		String from = (String) exchange.getIn().getHeader( "From" );
+		String body = (String) exchange.getIn().getBody();
+		System.out.println(filename + " " + from + " " + subject + " " + body);
 	}
 }

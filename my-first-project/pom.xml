@@ -18,6 +18,11 @@
             <version>4.2.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-spring</artifactId>
+            <version>2.16.5</version>
+        </dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
@@ -29,9 +34,9 @@
             <version>2.16.5</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-spring</artifactId>
-            <version>2.16.5</version>
+        	<groupId>org.apache.camel</groupId>
+	    	<artifactId>camel-mail</artifactId>
+	    	<version>2.16.5</version>
         </dependency>
     </dependencies>
 
